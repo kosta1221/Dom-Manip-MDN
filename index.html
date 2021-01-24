@@ -3,24 +3,19 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Window resize example</title>
+		<title>Shopping list example</title>
 		<link rel="stylesheet" href="style.css" />
-		<style>
-			body {
-				margin: 0;
-			}
-
-			div {
-				box-sizing: border-box;
-				width: 100px;
-				height: 100px;
-				background-image: url(bgtile.png);
-				border: 10px solid white;
-			}
-		</style>
 	</head>
 	<body>
-		<div></div>
+		<h1>My shopping list</h1>
+
+		<div>
+			<label for="item">Enter a new item:</label>
+			<input type="text" name="item" id="item" />
+			<button>Add item</button>
+		</div>
+
+		<ul></ul>
 
 		<script src="./jsdommanip.js"></script>
 	</body>
